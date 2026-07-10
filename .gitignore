@@ -1,0 +1,18 @@
+# Config (contains DB credentials - keep a .dist template instead) 
+/config/* 
+
+# Runtime/generated data - don't version these 
+/files/* 
+
+# Marketplace-installed plugins (installed via GLPI UI, not git) 
+/marketplace/* 
+
+# Composer dependencies (regenerate with composer install) 
+/vendor/ 
+
+# Logs 
+*.log 
+
+# OS/editor junk 
+.DS_Store 
+*.swp 
